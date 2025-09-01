@@ -1,5 +1,9 @@
 # 🔐 CNS ALA Encryption System
 
+
+https://github.com/user-attachments/assets/66df736b-6ab8-498a-8f8c-0fc753c7ba6c
+
+
 A modern, interactive web application demonstrating hybrid encryption techniques using AES-256 and RSA encryption for secure messaging. Built with React and Tailwind CSS, this project showcases end-to-end encryption concepts in a user-friendly interface.
 
 ## ✨ Features
