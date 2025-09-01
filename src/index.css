@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Soft global theme tweaks */
+body {
+  font-family: 'Nunito', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  color: #374151; /* gray-700 */
+}
+
+/* Smooth focus outline for accessibility */
+:focus-visible {
+  outline: 2px solid rgba(99, 102, 241, 0.35); /* indigo-500 at low opacity */
+  outline-offset: 2px;
+}
+
+/* Toast pop-in animation */
+@keyframes toast-pop-in {
+  0% { opacity: 0; transform: translateY(8px) scale(0.95); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.toast-pop {
+  animation: toast-pop-in 220ms ease-out both;
+}
